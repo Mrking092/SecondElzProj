@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.Landing {
+    background-image: url(/Images/landing.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.overlay {
+    background-color: rgb(0 0 0 / 60%);
+    height: 100vh;
+}
+
+.HeaderList {
+    display: flex;
+    list-style-type: none;
+}
+
+.HeaderList li {
+    padding: 10px;
+}
+
+.HeaderList li a {
+    text-decoration: none;
+    color: white;
+}
+
+.ContctAfterLine::after {
+content: "";
+position: absolute;
+right: 15px;
+top: 25px;
+width: 1px;
+height: 30px;
+background-color: white;
+margin-left: 10px;
+}
