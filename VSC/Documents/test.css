@@ -17,7 +17,7 @@ body {
 }
 
 .Landing {
-    background-image: url(/Images/landing.jpg);
+    background-image: url(/VSC/Images/landing.jpg);
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
