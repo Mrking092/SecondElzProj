@@ -13,7 +13,7 @@ body {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 20px 70px;;
 }
 
 .Landing {
@@ -44,11 +44,12 @@ body {
 
 #SearchSign {
     margin-left: 30px;
+    margin-top: 10px;
 }
 
 .ContctAfterLine {
 position: absolute;
-right: 15px;
+right: 100px;
 top: 25px;
 width: 1px;
 height: 30px;
@@ -59,4 +60,15 @@ margin-left: 10px;
 .ContctAfterLine i  {
     padding: 10px;
     box-sizing: content-box;
+}
+
+.HeaderHr {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+}
+
+.HeaderHr hr {
+    width: calc(100vw - 140px);
+    background-color: white;
 }
