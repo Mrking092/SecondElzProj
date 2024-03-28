@@ -42,8 +42,11 @@ body {
     color: white;
 }
 
-.ContctAfterLine::after {
-content: "";
+#SearchSign {
+    margin-left: 30px;
+}
+
+.ContctAfterLine {
 position: absolute;
 right: 15px;
 top: 25px;
@@ -51,4 +54,9 @@ width: 1px;
 height: 30px;
 background-color: white;
 margin-left: 10px;
+}
+
+.ContctAfterLine i  {
+    padding: 10px;
+    box-sizing: content-box;
 }
